@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160849232-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-160849232-1');
+    </script>
+</head>
+<body>
+    <div class="skip"><a href="#main" tabindex="0">Skip to Main Content</a></div> 
+    <header>
+        <img src="images/logo.JPG" alt="logo" id = "logo">
+        <!-- <div class="skip"><a href="#main">Skip to Main Content</a></div>  -->
+        <div class="navbar">
+            
+            <nav>
+                <ul class="nav_links">
+                    <li class="nav_item" id="current"><a href="index.html" tabindex="0">Home</a></li>
+                    <li class="nav_item"><a href="highschool.html" tabindex="0">High School</a></li>
+                    <li class="nav_item"><a href="undergrad.html" tabindex="0">Undergrad</a></li>
+                    <li class="nav_item"><a href="grad.html" tabindex="0">Graduate School</a></li>
+                    <li class="nav_item"><a href="contact.html" tabindex="0">Contact</a></li>
+                </ul>
+            </nav>  
+        </div> 
+    </header>
+    <main id="main">
+    <div id="indexheader">
+            <h1 class="name animate"><span>Abraham</span></h1>
+            <h1 class="lastname animate"><span>Rycus</span></h1>
+            
+            <!-- <h2>Welcome to my personal portfolio.</h2> -->
+    </div>
+    <div class="content" id="icontent">
+        <p class="indextext1"><span>Hey there! My name is Abraham Rycus, a first year master's student at the University of Michigan School of Information.
+        I've had a pretty long but fun academic journey to get to where I am today, so I'm dedicating this portfolio to that journey. The highs, 
+        the lows, the funny stories, you'll find them here. Each page will be dedicated to one part of my academic career, starting from high school
+        (I have finally succesfully blocked out all the bad memories from middle school, sorry).
+        </span></p>
+
+        <p class="indextext2"> <span>I've lived in Ann Arbor my whole life, growing up just ten minutes from campus. Even my grade schools (Wines Elementary, Forsythe Middle School and Skyline High School) were right in my neighborhood,
+            so I never really had to travel far to go school. This was very conveninent for me and definitely kept my parents happy. I've gone through many different phases of my life in terms of what I thought I wanted 
+            my career to be in, from optometrist to real estate agent (I was obsessed with House Hunters at a very young age) to paleontologist to being a professor. Ultimately, I ended up as UX designer, which is far cooler than any of my previous 
+            endeavors. Next summer, I'll be interning with Splunk in San Fransisco as a web UX design intern, and I can't be more excited to be in this position. Like I said, the path to where I am at today has many twists
+            and turns, so click on the links below to learn about all of my academic experiences! </span>
+        </p>
+    </div>
+    <h2 id = "pictures">My Academic Journey</h2>
+    <div class="container">
+        <div class="years" id="hyears">2011-2015</div>
+        <div class="flip-card" id="fp1" tabindex="0">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="images/skyline.jpg" alt="High School" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back"><a href="highschool.html">
+                <h2>Skyline High School</h2> 
+                <p>Ann Arbor, MI</p> 
+                <!-- <p class="rotate">2011-2015</p> -->
+            </a></div>
+            </div>
+          </div> 
+        <div class="years" id="uyears">2015-2019</div>
+        <div class="flip-card" id="fp2" tabindex="0">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/union.jpg" alt="High School" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back"><a href="undergrad.html">
+                    <h2>University of Michigan</h2> 
+                    <p>Ann Arbor, MI</p> 
+                    <!-- <p class="rotate">2011-2015</p> -->
+                </a></div>
+            </div>
+        </div>
+        <div class="years"  id="gyears">2019-2021</div>
+        <div class="flip-card" id="fp3" tabindex="0">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/northquad.jpg" alt="High School" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back"><a href="grad.html">
+                    <h2>University of Michigan School of Information</h2> 
+                    <p>Ann Arbor, MI</p> 
+            <!-- <p class="rotate">2011-2015</p> -->
+                </a></div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="hyears">2011-2015</div>
+    <div class="uyears">2015-2019</div>
+    <div class="gyears">2019-2020</div> -->
+    <footer>
+        <p>University of Michigan School of Information <br/>
+        &copy; Abraham Rycus</p>
+    </footer>
+</main>
+</body>
+</html>

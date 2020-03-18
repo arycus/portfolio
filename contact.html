@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160849232-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-160849232-1');
+    </script>
+</head>
+<body>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <header> 
+        <img src="images/logo.JPG" alt="logo" id = "logo">
+        <div class="navbar">
+            <nav>
+                <ul class="nav_links">
+                    <li class="nav_item"><a href="index.html">Home</a></li>
+                    <li class="nav_item"><a href="highschool.html">High School</a></li>
+                    <li class="nav_item"><a href="undergrad.html">Undergrad</a></li>
+                    <li class="nav_item"><a href="grad.html">Graduate School</a></li>
+                    <li class="nav_item" id="current"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>  
+        </div> 
+
+    </header>
+    <main id="main">
+        <div>
+            <h1><span>Contact Me</span></h1>
+        </div>
+    <form action="https://formspree.io/mleljpdg" method="POST">
+        <div class="contact-fname">
+            <label for ="first">First Name:</label>
+            <input type="text" id ="first" name="fname" placeholder ="Your First Name"/>
+        </div>
+
+        <div class="contact-lname">
+            <label for ="last">Last Name:</label>
+            <input type="text" id ="last" name="lname" placeholder="Your Last Name"/> 
+        </div>
+
+        <div class="contact-email">
+            <label for ="email">Email:</label>
+            <input type="email" id="email" name ="pw" placeholder="Your Email"/>
+        </div>
+
+        <div class="contact-message">
+            <label for="message" id="message-label">Your Message:</label>
+            <textarea id="message" placeholder="Your message here"></textarea>
+        </div>
+
+        <input type="submit" value="Submit"/>
+    </form>
+    <div class="social-gallery">
+        <a href="https://www.facebook.com/abe.rycus"><img class="social-pic" src="images/fb.png" alt="Facebook Page" /></a>
+        <a href="https://twitter.com/AbeRyc"><img class="social-pic" src="images/twitter.png" alt="Twitter Page" /></a>
+        <a href="https://github.com/arycus"><img class="social-pic" src="images/github.png" alt="Github Page" /></a>
+        <a href="https://www.instagram.com/aberyc/"><img class="social-pic" src="images/insta.png" alt="Instagram Page" /></a>
+        <a href="https://www.linkedin.com/in/abraham-rycus/"><img class="social-pic" src="images/linkedin.png" alt="LinkedIn Page" /></a>
+    </div>
+    <footer>
+        <p>University of Michigan School of Information <br/>
+        &copy; Abraham Rycus</p>
+    </footer>
+</main>
+
+</body>
+</html>
